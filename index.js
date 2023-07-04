@@ -1,4 +1,5 @@
 import React from "react"
+import ReactDOM from "react-dom"
 const page = (
    <div>
        <h1>My awesome website in React</h1>
