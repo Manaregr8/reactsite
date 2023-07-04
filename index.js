@@ -1,5 +1,6 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
+import ReactDOM from "react-dom";
+
 const page = (
    <div>
        <h1>My awesome website in React</h1>
@@ -12,5 +13,14 @@ const page = (
        </ol>
    </div>
 );
-console.log(page);
-ReactDOM.render(page, document.getElementById("root"));
+
+function App() {
+   return (
+      <div>
+         {page}
+      </div>
+   );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
